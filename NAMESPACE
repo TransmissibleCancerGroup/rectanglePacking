@@ -1,0 +1,4 @@
+useDynLib(rectanglePacking, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+importFrom(data.table, `:=`)
+export(rectangle_packing_cpp)
